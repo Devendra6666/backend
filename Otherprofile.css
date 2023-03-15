@@ -1,0 +1,71 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover{
+    background-color: #3c0bcf;
+    color: white;
+  }
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  .icon{
+      font-size: 30px;
+  }
+  .one{
+    color:blue;
+  }
+   a .icon:hover{
+      background-color: white;
+   }
+   img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+   }
+   a{
+    text-decoration: none;
+   }
+   .account{
+     margin-top: 20rem;
+   }
+   .post{
+     height:250px;width:500px;border-radius :0px;
+   }
+     .box{
+      background-color: #4f30ac;
+      height: 130px;
+      width: 100%;
+     }
+     .alter{
+      position: absolute;
+      top: 80px;
+      left: 15px;
+      height: 100px;
+      width: 100px;
+     }
+     .inform{
+      margin-top: 50px;
+     }
